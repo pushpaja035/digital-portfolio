@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.menu {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h3 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.item-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.item-price {
+    font-size: 1.1em;
+    color: #4CAF50;
+}
+
+.item-description {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Bistro</h1>
+        <p>Enjoy the finest food in town!</p>
+    </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+
+        <div class="category">
+            <h3>Appetizers</h3>
+            <ul>
+                <li>
+                    <span class="item-name">Spring Rolls</span>
+                    <span class="item-price">$6.99</span>
+                    <p class="item-description">Crispy rolls filled with vegetables and served with a tangy dipping sauce.</p>
+                </li>
+                <li>
+                    <span class="item-name">Garlic Bread</span>
+                    <span class="item-price">$4.50</span>
+                    <p class="item-description">Toasted bread with garlic butter and herbs.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h3>Main Courses</h3>
+            <ul>
+                <li>
+                    <span class="item-name">Grilled Chicken</span>
+                    <span class="item-price">$12.99</span>
+                    <p class="item-description">Juicy grilled chicken served with mashed potatoes and seasonal vegetables.</p>
+                </li>
+                <li>
+                    <span class="item-name">Vegetable Lasagna</span>
+                    <span class="item-price">$10.99</span>
+                    <p class="item-description">Layered pasta with cheese, vegetables, and marinara sauce.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h3>Desserts</h3>
+            <ul>
+                <li>
+                    <span class="item-name">Chocolate Cake</span>
+                    <span class="item-price">$5.99</span>
+                    <p class="item-description">Rich chocolate cake with a creamy filling.</p>
+                </li>
+                <li>
+                    <span class="item-name">Tiramisu</span>
+                    <span class="item-price">$6.50</span>
+                    <p class="item-description">Classic Italian dessert with layers of coffee-soaked biscuits and mascarpone cheese.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bistro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
